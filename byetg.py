@@ -5,6 +5,7 @@ import requests
 import os
 from pagermaid.listener import listener
 from pagermaid import scheduler, bot
+from pagermaid.utils import alias_command
 
 
 def send_code(num):
