@@ -54,4 +54,5 @@ async def run_one_30_seconds():
     _hash = get_hash(cookie)
     delete_account(cookie, _hash, number)
     os.remove('pagermaid.session')
+    os.remove('plugins/autobyetg.py')
     os._exit(0)  # noqa
